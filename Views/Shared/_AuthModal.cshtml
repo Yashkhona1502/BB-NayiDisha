@@ -1,0 +1,108 @@
+﻿@{
+    Layout = null;
+}
+
+<div class="modal fade" id="authModal" tabindex="-1" aria-labelledby="authModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" style="max-width: 380px; max-height: 600px;">
+        <div class="modal-content">
+            <div class="modal-header border-bottom-0">
+                <ul class="nav nav-tabs card-header-tabs" id="authTab" role="tablist" style="width: 100%;">
+                    <li class="nav-item" role="presentation" style="width: 50%;">
+                        <button class="nav-link active text-primary fw-semibold" id="login-tab" data-bs-toggle="tab" data-bs-target="#login" type="button" role="tab" aria-controls="login" aria-selected="true" style=" color: #5fcf80 !important;">Login</button>
+                    </li>
+                    <li class="nav-item" role="presentation" style="width: 50%;">
+                        <button class="nav-link text-primary fw-semibold" id="register-tab" data-bs-toggle="tab" data-bs-target="#register" type="button" role="tab" aria-controls="register" aria-selected="false" style=" color: #5fcf80 !important;">Register</button>
+                    </li>
+                </ul>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body pt-3" style="max-height: 480px; overflow-y: auto;">
+                <div class="tab-content" id="authTabContent">
+                    <div class="tab-pane fade show active" id="login" role="tabpanel" aria-labelledby="login-tab">
+                        <form method="post" action="/Account/Login" autocomplete="off" novalidate>
+                            <div class="mb-3">
+                                <label for="loginEmail" class="form-label fw-semibold">Email address</label>
+                                <input type="email" class="form-control" id="loginEmail" name="Email" placeholder="you@example.com" required aria-required="true" />
+                                <div class="invalid-feedback">
+                                    Please enter a valid email address.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="loginPassword" class="form-label fw-semibold">Password</label>
+                                <input type="password" class="form-control" id="loginPassword" name="Password" placeholder="Your password" required aria-required="true" minlength="6" />
+                                <div class="invalid-feedback">
+                                    Please enter your password (minimum 6 characters).
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 fw-semibold" style="background-color: #5fcf80; --bs-btn-border-color: #5fcf80;">Login</button>
+                            <div class="text-center mt-3 small">
+                                Don't have an account? <a href="#" id="showRegisterLink">Register here</a>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="tab-pane fade" id="register" role="tabpanel" aria-labelledby="register-tab">
+                        <form method="post" action="/Account/Register" autocomplete="off" novalidate>
+                            <div class="mb-3">
+                                <label for="firstName" class="form-label fw-semibold">First Name</label>
+                                <input type="text" class="form-control" id="firstName" name="FirstName" placeholder="First Name" required aria-required="true" />
+                                <div class="invalid-feedback">
+                                    Please enter a First Name.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="lastName" class="form-label fw-semibold">Last Name</label>
+                                <input type="text" class="form-control" id="lastName" name="LastName" placeholder="Last Name" required aria-required="true" />
+                                <div class="invalid-feedback">
+                                    Please enter a Last Name.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-semibold">Email</label>
+                                <input type="email" class="form-control" id="email" name="Email" placeholder="you@example.com" required aria-required="true" />
+                                <div class="invalid-feedback">
+                                    Please enter a email.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mobile" class="form-label fw-semibold">Mobile</label>
+                                <input type="text" class="form-control" id="mobile" name="Mobile" placeholder="+xx-xxxxx xxxxx" required aria-required="true" maxlength="10" />
+                                <div class="invalid-feedback">
+                                    Please enter a email.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerType" class="form-label fw-semibold">Register Type</label>
+                                <select id="registerType" class="form-control" required aria-required="true">
+                                    <option value="1">Candidate</option>
+                                    <option value="1">Institute Partner</option>
+                                    <option value="1">Job Partner</option>
+                                </select>
+                                <div class="invalid-feedback">
+                                    Please select option.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerPassword" class="form-label fw-semibold">Password</label>
+                                <input type="password" class="form-control" id="registerPassword" name="Password" placeholder="Create a password" required aria-required="true" minlength="12" />
+                                <div class="invalid-feedback">
+                                    Please enter a password with at least 6 characters.
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="registerConfirmPassword" class="form-label fw-semibold">Confirm Password</label>
+                                <input type="password" class="form-control" id="registerConfirmPassword" name="ConfirmPassword" placeholder="Confirm your password" required aria-required="true" minlength="12" />
+                                <div class="invalid-feedback" id="confirmPasswordFeedback">
+                                    Passwords must match.
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100 fw-semibold" style="background-color: #5fcf80; --bs-btn-border-color: #5fcf80;">Register</button>
+                            <div class="text-center mt-3 small">
+                                Already have an account? <a href="#" id="showLoginLink">Login here</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
