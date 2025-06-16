@@ -1,0 +1,45 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = BB_NayiDisha_New
+build_property.RootNamespace = BB_NayiDisha_New
+build_property.ProjectDir = /Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = /Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/Shared/_AuthModal.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19BdXRoTW9kYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/Shared/_JsDore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Kc0RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/Shared/_StylesheetsDore.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19TdHlsZXNoZWV0c0RvcmUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
