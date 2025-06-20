@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BB-NayiDisha_New")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf0586dc0295b25e27fe7957a4a78cdb663cdb22")]
 [assembly: System.Reflection.AssemblyProductAttribute("BB-NayiDisha_New")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BB-NayiDisha_New")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/BB-NayiDisha_New.csproj": {}
+    "/Users/yashkhona/Projects/BB-NayiDisha-Git/BB-NayiDisha/BB-NayiDisha_New.csproj": {}
   },
   "projects": {
-    "/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/BB-NayiDisha_New.csproj": {
+    "/Users/yashkhona/Projects/BB-NayiDisha-Git/BB-NayiDisha/BB-NayiDisha_New.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/BB-NayiDisha_New.csproj",
+        "projectUniqueName": "/Users/yashkhona/Projects/BB-NayiDisha-Git/BB-NayiDisha/BB-NayiDisha_New.csproj",
         "projectName": "BB-NayiDisha_New",
-        "projectPath": "/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/BB-NayiDisha_New.csproj",
+        "projectPath": "/Users/yashkhona/Projects/BB-NayiDisha-Git/BB-NayiDisha/BB-NayiDisha_New.csproj",
         "packagesPath": "/Users/yashkhona/.nuget/packages/",
-        "outputPath": "/Users/yashkhona/Projects/BB-NayiDisha_New/BB-NayiDisha_New/obj/",
+        "outputPath": "/Users/yashkhona/Projects/BB-NayiDisha-Git/BB-NayiDisha/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/yashkhona/.nuget/NuGet/NuGet.Config"
@@ -49,6 +49,14 @@
               "version": "[2.3.0, )"
             },
             "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.0, )"
             }

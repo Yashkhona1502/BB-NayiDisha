@@ -1,9 +1,17 @@
+using Microsoft.EntityFrameworkCore;
+using BB_NayiDisha_New.Models.DataContext;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
+
+builder.Services.AddDbContext<DataContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DbConnection"));
+});
 
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();  // Add this
